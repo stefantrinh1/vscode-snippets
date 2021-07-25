@@ -16,6 +16,13 @@
   // 	"description": "Log output to console"
   // }
 
+  "themeui": {
+    "scope": "javascript",
+    "prefix": "theme-ui",
+    "body": ["import {Box, Text, Heading} from 'theme-ui'"],
+    "description": "theme-ui import"
+  },
+
   "flex": {
     "scope": "javascript",
     "prefix": "flex",
@@ -25,6 +32,19 @@
       "justifyContent: 'center',",
       "alignItems: 'center',"
     ],
-    "description": "flex va"
+    "description": "flex styles"
+  },
+  "styles": {
+    "scope": "javascript",
+    "prefix": "styles",
+    "body": [
+      "const styles =  {",
+      "   container: {",
+      "     display:'flex',",
+      "     flexDirection:'column',",
+      "   },",
+      "}"
+    ],
+    "description": "styles object"
   }
 }

@@ -1,0 +1,15 @@
+{
+  "shortid": {
+    "scope": "javascript",
+    "prefix": "theme-ui",
+    "body": ["import shortid from 'shortid'"],
+    "description": "theme-ui import"
+  },
+
+  "slugify": {
+    "scope": "javascript",
+    "prefix": "theme-ui",
+    "body": ["import slugify from 'slugify'"],
+    "description": "theme-ui import"
+  }
+}
