@@ -1,15 +1,51 @@
 {
+  // Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and
+  // description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope
+  // is left empty or omitted, the snippet gets applied to all languages. The prefix is what is
+  // used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders.
+  // Placeholders with the same ids are connected.
+  // Example:
+  // "Print to console": {
+  // 	"scope": "javascript,typescript",
+  // 	"prefix": "log",
+  // 	"body": [
+  // 		"console.log('$1');",
+  // 		"$2"
+  // 	],
+  // 	"description": "Log output to console"
+  // }
+
   "shortid": {
     "scope": "javascript",
-    "prefix": "theme-ui",
+    "prefix": "shortid",
     "body": ["import shortid from 'shortid'"],
     "description": "theme-ui import"
   },
 
   "slugify": {
     "scope": "javascript",
-    "prefix": "theme-ui",
+    "prefix": "slugify",
     "body": ["import slugify from 'slugify'"],
     "description": "theme-ui import"
+  },
+
+  "defaultprops": {
+    "scope": "javascript",
+    "prefix": "defaultprops",
+    "body": [
+      "ComponentName.defaultProps = {",
+      "  title: 'Default Title',",
+      "  subtitle: 'Default Subtitle',",
+      "  text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',",
+      "  buttons: [{ name: 'defsault Button', link: 'Button' }],",
+      "  images: [",
+      "   'https://via.placeholder.com/500',",
+      "   'https://via.placeholder.com/500',",
+      "   'https://via.placeholder.com/500',",
+      "  ],",
+      "};"
+    ],
+    "description": "Create Default Props Object"
   }
 }
