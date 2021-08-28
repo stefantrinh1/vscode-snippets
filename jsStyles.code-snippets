@@ -46,5 +46,21 @@
       "}"
     ],
     "description": "styles object"
+  },
+  "grid": {
+    "scope": "javascript",
+    "prefix": "grid",
+    "body": [
+      "display: 'grid',",
+      "gridTemplateColumns: 'repeat(5, 1fr)',",
+      "gridTemplateRows: 'repeat(6, 1fr)',",
+      "gridColumnGap: '15px',",
+      "gridRowGap: '15px',",
+      "gridColumnStart: '1',",
+      "gridColumnEnd: '1',",
+      "gridRowStart: '1',",
+      "gridRowEnd: '1'"
+    ],
+    "description": "grid styles"
   }
 }
