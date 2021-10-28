@@ -27,7 +27,7 @@
     "scope": "javascript",
     "prefix": "slugify",
     "body": ["import slugify from 'slugify'"],
-    "description": "theme-ui import"
+    "description": "slugify import"
   },
 
   "defaultprops": {
@@ -47,5 +47,12 @@
       "};"
     ],
     "description": "Create Default Props Object"
+  },
+
+  "useContextDestructured": {
+    "scope": "javascript",
+    "prefix": "useContextDestructured",
+    "body": ["const { globalState, dispatch } = useContext(store)"],
+    "description": "creates the useContext Variable PreDestructured"
   }
 }

@@ -62,5 +62,17 @@
       "gridRowEnd: '1'"
     ],
     "description": "grid styles"
+  },
+
+  "centerElement": {
+    "scope": "javascript",
+    "prefix": "centerElement",
+    "body": [
+      "position: 'absolute',",
+      "top: '50%',",
+      "left: '50%',",
+      "transform: 'translate(-50%,-50%)',"
+    ],
+    "description": "Center Element Styles"
   }
 }
