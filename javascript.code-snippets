@@ -20,7 +20,7 @@
     "scope": "javascript",
     "prefix": "shortid",
     "body": ["import shortid from 'shortid'"],
-    "description": "theme-ui import"
+    "description": "shortid import"
   },
 
   "slugify": {
@@ -28,6 +28,13 @@
     "prefix": "slugify",
     "body": ["import slugify from 'slugify'"],
     "description": "slugify import"
+  },
+
+  "styled-import": {
+    "scope": "javascript",
+    "prefix": "styled-import",
+    "body": ["import styled from 'styled-components'"],
+    "description": "styled components import"
   },
 
   "defaultprops": {
