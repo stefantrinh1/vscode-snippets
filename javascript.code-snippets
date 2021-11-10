@@ -61,5 +61,19 @@
     "prefix": "useContextDestructured",
     "body": ["const { globalState, dispatch } = useContext(store)"],
     "description": "creates the useContext Variable PreDestructured"
+  },
+
+  "styledContainerStyles": {
+    "scope": "javascript",
+    "prefix": "styledContainerStyles",
+    "body": ["const Container = styled.div``"],
+    "description": "creates Container Styled Component"
+  },
+
+  "useGlobalStyles": {
+    "scope": "javascript",
+    "prefix": "useGlobalStyles",
+    "body": ["${({ theme }) => theme.colors.primary};"],
+    "description": "prints the function to get global styles from styled components"
   }
 }
