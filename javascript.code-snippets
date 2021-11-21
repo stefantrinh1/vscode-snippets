@@ -75,5 +75,40 @@
     "prefix": "useGlobalStyles",
     "body": ["${({ theme }) => theme.colors.primary};"],
     "description": "prints the function to get global styles from styled components"
+  },
+
+  "jsDocsFunction": {
+    "scope": "javascript",
+    "prefix": "jsDocsFunction",
+    "body": [
+      "/**",
+      "*",
+      "* Converts CamelCase Into Sentence Case",
+      "* @example camelCaseToSentenceCase('newTextBody') | <caption>Example usage of method1.</caption>",
+      "* @param {string} key - the text you want to convert sentence case",
+      "* @returns {string} returns a Sentence Case string = New text body",
+      "*",
+      "*/"
+    ],
+
+    "description": "snippet of JS Docs"
+  },
+
+  "jsDocsReactComponent": {
+    "scope": "javascript",
+    "prefix": "jsDocsReactComponent",
+    "body": [
+      "/**",
+      "*",
+      "* A React Component",
+      "* @example <Button color={'#FFFFFF'}>{children}</Button>",
+      "* @param {string} color - Color Of The Button",
+      "* @param {children} - the children element of the button",
+      "* @returns {Object} - A React Button Component",
+      "*",
+      "*/"
+    ],
+
+    "description": "snippet of JS Docs For React Components"
   }
 }

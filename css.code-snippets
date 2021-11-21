@@ -38,5 +38,11 @@
     "prefix": "padding",
     "body": ["padding: 1rem"],
     "description": "padding"
+  },
+  "useGlobalStyles": {
+    "scope": "css",
+    "prefix": "useGlobalStyles",
+    "body": ["${({ theme }) => theme.colors.primary};"],
+    "description": "prints the function to get global styles from styled components"
   }
 }
