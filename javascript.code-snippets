@@ -110,5 +110,24 @@
     ],
 
     "description": "snippet of JS Docs For React Components"
+  },
+  "types": {
+    "scope": "javascript",
+    "prefix": "types",
+    "body": [
+      " interface props {",
+      "  id: String,",
+      "  name: String,",
+      "  date: Date,",
+      "  children: JSX.Element | JSX.Element[] | String | Number,",
+      "}"
+    ],
+    "description": "Creates TypeScript Types Object"
+  },
+  "typesPropsDestructured": {
+    "scope": "javascript",
+    "prefix": "types",
+    "body": ["({ id, name, date }: props):JSX.Element | null"],
+    "description": "Creates The destructing syntax inside functional component parameters"
   }
 }
