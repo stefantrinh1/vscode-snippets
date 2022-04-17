@@ -17,28 +17,28 @@
   // }
 
   "shortid": {
-    "scope": "javascript",
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
     "prefix": "shortid",
     "body": ["import shortid from 'shortid'"],
     "description": "shortid import"
   },
 
   "slugify": {
-    "scope": "javascript",
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
     "prefix": "slugify",
     "body": ["import slugify from 'slugify'"],
     "description": "slugify import"
   },
 
   "styled-import": {
-    "scope": "javascript",
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
     "prefix": "styled-import",
     "body": ["import styled from 'styled-components'"],
     "description": "styled components import"
   },
 
   "defaultprops": {
-    "scope": "javascript",
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
     "prefix": "defaultprops",
     "body": [
       "ComponentName.defaultProps = {",
@@ -57,28 +57,28 @@
   },
 
   "useContextDestructured": {
-    "scope": "javascript",
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
     "prefix": "useContextDestructured",
     "body": ["const { globalState, dispatch } = useContext(store)"],
     "description": "creates the useContext Variable PreDestructured"
   },
 
   "styledContainerStyles": {
-    "scope": "javascript",
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
     "prefix": "styledContainerStyles",
     "body": ["const Container = styled.div``"],
     "description": "creates Container Styled Component"
   },
 
   "useGlobalStyles": {
-    "scope": "javascript",
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
     "prefix": "useGlobalStyles",
     "body": ["${({ theme }) => theme.colors.primary};"],
     "description": "prints the function to get global styles from styled components"
   },
 
   "jsDocsFunction": {
-    "scope": "javascript",
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
     "prefix": "jsDocsFunction",
     "body": [
       "/**",
@@ -95,7 +95,7 @@
   },
 
   "jsDocsReactComponent": {
-    "scope": "javascript",
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
     "prefix": "jsDocsReactComponent",
     "body": [
       "/**",
@@ -112,7 +112,7 @@
     "description": "snippet of JS Docs For React Components"
   },
   "types": {
-    "scope": "javascript",
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
     "prefix": "types",
     "body": [
       " interface props {",
@@ -125,9 +125,16 @@
     "description": "Creates TypeScript Types Object"
   },
   "typesPropsDestructured": {
-    "scope": "javascript",
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
     "prefix": "types",
     "body": ["({ id, name, date }: props):JSX.Element | null"],
     "description": "Creates The destructing syntax inside functional component parameters"
+  },
+
+  "JSX.Element": {
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
+    "prefix": "JSX.Element",
+    "body": [":JSX.Element"],
+    "description": "Creates JSX Element Typescript type"
   }
 }

@@ -17,14 +17,14 @@
   // }
 
   "themeui": {
-    "scope": "javascript",
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
     "prefix": "theme-ui",
     "body": ["import {Box, Text, Heading} from 'theme-ui'"],
     "description": "theme-ui import"
   },
 
   "flex": {
-    "scope": "javascript",
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
     "prefix": "flex",
     "body": [
       "display: 'flex',",
@@ -35,7 +35,7 @@
     "description": "flex styles"
   },
   "styles": {
-    "scope": "javascript",
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
     "prefix": "styles",
     "body": [
       "const styles =  {",
@@ -48,7 +48,7 @@
     "description": "styles object"
   },
   "grid": {
-    "scope": "javascript",
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
     "prefix": "grid",
     "body": [
       "display: 'grid',",
@@ -65,7 +65,7 @@
   },
 
   "centerElement": {
-    "scope": "javascript",
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
     "prefix": "centerElement",
     "body": [
       "position: 'absolute',",
