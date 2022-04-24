@@ -115,7 +115,7 @@
     "scope": "javascript, typescript, javascriptreact, typescriptreact",
     "prefix": "types",
     "body": [
-      " interface props {",
+      " interface Props {",
       "  id: String,",
       "  name: String,",
       "  date: Date,",
@@ -127,7 +127,7 @@
   "typesPropsDestructured": {
     "scope": "javascript, typescript, javascriptreact, typescriptreact",
     "prefix": "types",
-    "body": ["({ id, name, date }: props):JSX.Element | null"],
+    "body": ["({ id, name, date }: Props):JSX.Element | null"],
     "description": "Creates The destructing syntax inside functional component parameters"
   },
 
