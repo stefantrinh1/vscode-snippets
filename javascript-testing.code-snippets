@@ -143,7 +143,7 @@
   },
   "reactTestingUserEventsExamples": {
     "scope": "javascript, typescript, javascriptreact, typescriptreact",
-    "prefix": "reactTestingQueries",
+    "prefix": "reactTestingUserEventsExamples",
     "body": [
       "userEvent.click(screen.getByText('Check'))",
       "userEvent.click(element);",
@@ -158,7 +158,7 @@
   },
   "reactTestingExpectExamples": {
     "scope": "javascript, typescript, javascriptreact, typescriptreact",
-    "prefix": "reactTestingQueries",
+    "prefix": "reactTestingExpectExamples",
     "body": [
       "expect(screen.getByLabelText('Check')).toBeChecked()",
       "expect(screen.getByRole('option', {name: 'A'}).selected).toBe(true)",
